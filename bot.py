@@ -19,8 +19,8 @@ EMAIL_PASSWORD = os.getenv('EMAIL_PASSWORD') # Gmail App Password
 genai.configure(api_key=GEMINI_KEY)
 
 # Using latest stable models
-MODEL_FLASH = 'models/gemini-1.5-flash-latest'
-MODEL_PRO = 'models/gemini-1.5-pro-latest'
+MODEL_FLASH = 'gemini-2.5-flash'
+MODEL_PRO = 'gemini-2.5-pro'
 
 # In-memory state tracking (Mode and Reflection Turn)
 user_states = {}
